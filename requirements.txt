@@ -1,1 +1,3 @@
 urllib3
+pyyaml
+argparse
