@@ -1,3 +1,4 @@
 {
-  api_key: "api_key"
+  api_key: "api_key",
+  server_host: "example.com"
 }
