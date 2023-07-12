@@ -34,7 +34,6 @@ def post(api_key, server_host, cpu_temp):
         headers={"Content-Type": "application/json"}
     )
     
-    print(resp.status)
     if resp.status == 200:
         return 0
     return 2
@@ -55,4 +54,4 @@ def main():
     return -1
 
 if __name__ == "__main__":
-    print(main())
+    main()
