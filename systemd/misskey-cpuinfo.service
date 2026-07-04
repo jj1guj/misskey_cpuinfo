@@ -1,0 +1,9 @@
+[Unit]
+Description=Post CPU temperature to Misskey
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/path/to/misskey_cpuinfo
+ExecStart=/path/to/misskey_cpuinfo/.venv/bin/python cputemp.py config.yaml
