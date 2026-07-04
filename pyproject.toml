@@ -1,0 +1,11 @@
+[project]
+name = "misskey-cpuinfo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "argparse>=1.4.0",
+    "pyyaml>=6.0.3",
+    "urllib3>=2.6.3",
+]
